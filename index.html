@@ -1,11 +1,94 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    
-    <title>IFPI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrícula de Alunos - IFPI</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Projeto git</h1>
+
+    <header class="header">
+        <div class="logo-header">
+            <span>IFPI - Paulistana</span>
+        </div>
+        <nav class="nav">
+            <a href="index.html" class="active">Início</a>
+            <a href="cursos.html">Cursos</a>
+            <a href="como_ingressar.html">Como Ingressar</a>
+            <a href="matricula.html">Efetuar Matrícula</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Alternar Tema">
+            🌙 Modo Escuro
+        </button>
+    </header>
+
+    <main class="main-container">
+
+        <section class="card-form">
+            <h2>Matrícula de Alunos</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome completo" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" placeholder="seuemail@exemplo.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="nascimento">Data de Nascimento:</label>
+                    <input type="date" id="nascimento" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="senha">Crie uma Senha:</label>
+                    <input type="password" id="senha" placeholder="••••••••" required>
+                </div>
+
+                <button type="submit" class="btn-submit">Confirmar Matrícula</button>
+            </form>
+        </section>
+
+        <section class="brand-section">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Instituto_Federal_do_Piau%C3%AD_-_Marca_Vertical_2015.svg/960px-Instituto_Federal_do_Piau%C3%AD_-_Marca_Vertical_2015.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20190613141126"
+                alt="Logo IFPI" class="brand-logo">
+            <h3>Instituto Federal do Piauí</h3>
+            <p>Campus Paulistana</p>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h4>Endereço</h4>
+                <p>IFPI - Campus Paulistana</p>
+                <p>Rodovia BR 407, km 5, s/n</p>
+                <p>Paulistana - PI, 64750-000</p>
+            </div>
+            <div class="footer-links">
+                <h4>Mapa do Site</h4>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="como_ingressar.html">Como Ingressar</a></li>
+                    <li><a href="matricula.html">Matrícula</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="secreto.html" class="nav">Secreto</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 IFPI Paulistana. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
 </body>
+
 </html>

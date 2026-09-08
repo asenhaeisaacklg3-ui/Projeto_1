@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - IFPI Campus Paulistana</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    
+    <header class="header">
+        <div class="logo-header">
+            <span>IFPI - Paulistana</span>
+        </div>
+        <nav class="nav">
+            <a href="index.html">Início</a>
+            <a href="cursos.html">Cursos</a>
+            <a href="como_ingressar.html">Como Ingressar</a>
+            <a href="matricula.html">Efetuar Matrícula</a>
+            <a href="contato.html" class="active">Contato</a>
+        </nav>
+        
+        <button id="theme-toggle" class="theme-toggle" aria-label="Alternar Tema">
+            🌙 Modo Escuro
+        </button>
+    </header>
+
+    
+    <main class="main-container">
+        
+        
+        <section class="card-form">
+            <h2>Entre em Contato</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="nome">Nome Completo:</label>
+                    <div class="input-with-icon">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id="nome" placeholder="Digite seu nome" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <div class="input-with-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" id="email" placeholder="seu.email@exemplo.com" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <div class="input-with-icon">
+                        <i class="fa-solid fa-phone"></i>
+                        <input type="tel" id="telefone" placeholder="(XX) XXXXX-XXXX">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <div class="input-with-icon icon-textarea">
+                        <i class="fa-solid fa-pen"></i>
+                        <textarea id="mensagem" rows="10" placeholder="Digite sua mensagem..."required></textarea>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-submit">Enviar Mensagem</button>
+            </form>
+        </section>
+
+        <section class="brand-section contact-info-section">
+            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Instituto_Federal_do_Piau%C3%AD_-_Marca_Vertical_2015.svg/960px-Instituto_Federal_do_Piau%C3%AD_-_Marca_Vertical_2015.svg.png?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=thumbnail" alt="Logo IFPI" class="brand-logo">
+            <h3>INSTITUTO FEDERAL</h3>
+            <p class="brand-sub">Piauí</p>
+
+            <div class="contact-details">
+                <div class="detail-item">
+                    <i class="fa-solid fa-location-dot detail-icon"></i>
+                    <div>
+                        <strong>Endereço:</strong>
+                        <p>IFPI - Campus Paulistana<br>Rodovia BR 407, km 5, s/n<br>Paulistana - PI, 64750-000</p>
+                    </div>
+                </div>
+
+                <div class="detail-item">
+                    <i class="fa-solid fa-clock detail-icon"></i>
+                    <div>
+                        <strong>Horário de Atendimento:</strong>
+                        <p>Segunda a Sexta, das 08h às 18h</p>
+                    </div>
+                </div>
+
+                <div class="detail-item">
+                    <i class="fa-solid fa-envelope detail-icon"></i>
+                    <div>
+                        <strong>E-mail:</strong>
+                        <p>contato.paulistana@ifpi.edu.br</p>
+                    </div>
+                </div>
+
+                <div class="detail-item">
+                    <i class="fa-solid fa-phone detail-icon"></i>
+                    <div>
+                        <strong>Telefone:</strong>
+                        <p>(89) 3487-XXXX</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h4>Endereço</h4>
+                <p>IFPI - Paulistana</p>
+                <p>Rodovia BR 407, km 5, s/n</p>
+                <p>Paulistana - PI, 64750-000</p>
+            </div>
+            <div class="footer-links">
+                <h4>Mapa do Site</h4>
+                <div class="links-columns">
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="cursos.html">Cursos</a></li>
+                        <li><a href="como_ingressar.html">Como Ingressar</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="matricula.html">Efetuar Matrícula</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy; 2026 Instituto Federal Piauí</p>
+        </div>
+    </footer>
+
+</body>
+</html>
